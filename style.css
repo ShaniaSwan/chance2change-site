@@ -119,10 +119,6 @@ a {
   text-shadow: 0 3px 16px rgba(0, 0, 0, 0.55);
 }
 
-.hero h1 span {
-  display: block;
-}
-
 .hero-text {
   color: var(--text);
   font-size: 1.16rem;
