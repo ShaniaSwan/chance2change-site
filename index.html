@@ -16,8 +16,8 @@
     <a href="#services">Services</a>
     <a href="#work">Our Work</a>
     <a href="#mission">Mission</a>
-    <a href="#training">Training</a>
     <a href="#founder">Founder</a>
+    <a href="#training">Training</a>
     <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
   </div>
@@ -39,7 +39,7 @@
 
 <section id="services" class="section">
   <h2>What We Offer</h2>
-  <p>Chance2Change provides reliable home services while creating real opportunities for people to learn maintenance and trade skills.</p>
+  <p>Chance2Change provides reliable services while creating real opportunities for people to learn, work, and rebuild their future.</p>
 
   <div class="cards">
     <div class="card">
@@ -63,12 +63,24 @@
   <h2>Our Work</h2>
   <p>Real projects. Real skills. Real impact.</p>
 
-  <div class="project-gallery">
-    <img src="1b58937cdfa539bd564c0c76c98b4d6d.jpg" alt="Chance2Change project work">
-    <img src="50bf7ff550904d951df534fcf44e07df.jpg" alt="Chance2Change project work">
-    <img src="5490441aa0926316fe2a8c0b14a87db2.jpg" alt="Chance2Change project work">
-    <img src="dd6e1407db4171be380d35564a8274e9.jpg" alt="Chance2Change project work">
-    <img src="ea429c456ae39519ff7827e4b1f63494.jpg" alt="Chance2Change project work">
+  <div class="carousel">
+    <button class="carousel-btn prev" onclick="moveSlide('workCarousel', -1)">❮</button>
+
+    <div class="carousel-track" id="workCarousel">
+      <img src="1b58937cdfa539bd564c0c76c98b4d6d.jpg" alt="Project work">
+      <img src="50bf7ff550904d951df534fcf44e07df.jpg" alt="Project work">
+      <img src="5490441aa0926316fe2a8c0b14a87db2.jpg" alt="Project work">
+      <img src="dd6e1407db4171be380d35564a8274e9.jpg" alt="Project work">
+      <img src="ea429c456ae39519ff7827e4b1f63494.jpg" alt="Project work">
+      <img src="IMG_7933.jpg" alt="Project work">
+      <img src="IMG_7934.jpg" alt="Project work">
+      <img src="IMG_7935.jpg" alt="Project work">
+      <img src="IMG_7936.jpg" alt="Project work">
+      <img src="IMG_7937.jpg" alt="Project work">
+      <img src="IMG_7938.jpg" alt="Project work">
+    </div>
+
+    <button class="carousel-btn next" onclick="moveSlide('workCarousel', 1)">❯</button>
   </div>
 </section>
 
@@ -86,6 +98,48 @@
     We aim to grow into community academies, training spaces, and partnerships that provide housing,
     hands-on projects, mentorship, and practical skills that restore neighborhoods and lives.
   </p>
+</section>
+
+<section id="founder" class="section founder">
+  <h2>Meet Gregg Swan</h2>
+  <p>
+    Gregg Swan brings hands-on experience in maintenance, real estate, carpentry, plumbing,
+    electrical, HVAC, property management, and community redevelopment. Chance2Change is built by someone
+    who has lived the trade journey and believes practical skills can change lives.
+  </p>
+
+  <div class="founder-grid">
+    <div class="founder-card">
+      <img src="IMG_7921.JPG" alt="Gregg Swan working">
+      <h3>Hands-On Experience</h3>
+      <p>Professional repairs, drywall, renovation, and maintenance work.</p>
+    </div>
+
+    <div class="founder-card">
+      <img src="IMG_7919.JPG" alt="Gregg Swan electrical work">
+      <h3>Trade Expertise</h3>
+      <p>Electrical, plumbing, carpentry, HVAC, and property maintenance experience.</p>
+    </div>
+  </div>
+
+  <h2 class="subheading">Certifications & Credentials</h2>
+  <p>Click any certificate image to view it larger as proof of training and experience.</p>
+
+  <div class="carousel cert-carousel">
+    <button class="carousel-btn prev" onclick="moveSlide('certCarousel', -1)">❮</button>
+
+    <div class="carousel-track" id="certCarousel">
+      <a href="1000008991.jpg" target="_blank">
+        <img src="1000008991.jpg" alt="Certification">
+      </a>
+
+      <a href="1000008997.PNG" target="_blank">
+        <img src="1000008997.PNG" alt="Certification">
+      </a>
+    </div>
+
+    <button class="carousel-btn next" onclick="moveSlide('certCarousel', 1)">❯</button>
+  </div>
 </section>
 
 <section id="training" class="section dark">
@@ -110,56 +164,6 @@
   </div>
 </section>
 
-<section id="founder" class="section founder">
-  <h2>Meet Gregg Swan</h2>
-  <p>
-    Founder Gregg Swan brings hands-on experience in maintenance, real estate, carpentry, plumbing,
-    electrical, HVAC, property management, and community redevelopment. Chance2Change is built by someone
-    who has lived the trade journey and believes skills can change lives.
-  </p>
-
-  <div class="founder-gallery">
-    <div class="gallery-item">
-      <img src="IMG_7921.JPG" alt="Gregg Swan working">
-      <h3>Hands-On Experience</h3>
-      <p>Professional repairs, drywall, renovation, and maintenance work.</p>
-    </div>
-
-    <div class="gallery-item">
-      <img src="IMG_7919.JPG" alt="Gregg Swan electrical work">
-      <h3>Trade Skills</h3>
-      <p>Electrical, plumbing, carpentry, HVAC, and property maintenance expertise.</p>
-    </div>
-
-    <div class="gallery-item">
-      <img src="image(13).png" alt="Gregg Swan certification">
-      <h3>NCCER Certified</h3>
-      <p>Nationally recognized training and certification credentials.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section dark">
-  <h2>Founder Credentials</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>NCCER Training</h3>
-      <p>Carpentry, electrical, plumbing, and HVAC Level One craft training.</p>
-    </div>
-
-    <div class="card">
-      <h3>Real Estate Experience</h3>
-      <p>Property ownership, redevelopment, management, and investment experience.</p>
-    </div>
-
-    <div class="card">
-      <h3>Professional Maintenance</h3>
-      <p>Experience in safety systems, repairs, renovation work, and building operations.</p>
-    </div>
-  </div>
-</section>
-
 <section id="reviews" class="section reviews">
   <h2>Trusted in the Community</h2>
   <p>Read reviews, view our profiles, and connect with Chance2Change.</p>
@@ -176,9 +180,9 @@
 
   <div class="buttons">
     <a href="https://wa.me/16142662582" target="_blank" class="btn">💬 WhatsApp Us</a>
-    <a href="mailto:chance2changec2c@gmail.com?subject=Chance2Change Inquiry" class="btn secondary">📩 Email Us</a>
-    <a href="https://www.instagram.com/chance2.change" target="_blank" class="btn secondary">📸 Instagram</a>
-    <a href="https://www.facebook.com/Chance2Change" target="_blank" class="btn secondary">👍 Facebook</a>
+    <a href="mailto:chance2changec2c@gmail.com?subject=Chance2Change Inquiry" class="btn secondary"> Email Us</a>
+    <a href="https://www.instagram.com/chance2.change" target="_blank" class="btn secondary"> Instagram</a>
+    <a href="https://www.facebook.com/Chance2Change" target="_blank" class="btn secondary"> Facebook</a>
   </div>
 
   <p class="contact-info">
@@ -192,5 +196,6 @@
   <p>Rebuilding Lives. Rebuilding Communities.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
