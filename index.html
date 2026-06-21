@@ -1,201 +1,198 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chance2Change</title>
+  <title>Chance2Change | Rebuilding Lives. Rebuilding Communities.</title>
+  <meta name="description" content="Chance2Change provides professional home services while empowering people through trade skills, mentorship, and community development." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="images/logo.png" alt="Chance2Change logo" />
+      <span>Chance2Change</span>
+    </a>
 
-<nav class="navbar">
-  <img src="images/logo.png" alt="Chance2Change Logo" class="nav-logo">
-
-  <div class="nav-links">
-    <a href="#services">Services</a>
-    <a href="#work">Our Work</a>
-    <a href="#mission">Mission</a>
-    <a href="#founder">Founder</a>
-    <a href="#training">Training</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#contact">Contact</a>
-  </div>
+```
+<nav>
+  <a href="#services">Services</a>
+  <a href="#work">Our Work</a>
+  <a href="#training">Training</a>
+  <a href="#story">Founder</a>
+  <a href="#contact">Contact</a>
 </nav>
+```
 
-<header class="hero">
-  <img src="ChatGPT Image Jun 21, 2026, 01_28_10 PM.png" alt="Chance2Change Banner" class="hero-banner">
+  </header>
 
-  <h1>Chance2Change</h1>
-  <h2>Faith. Skills. Opportunity.</h2>
-  <p>Rebuilding lives and communities through trade skills, mentorship, and professional home services.</p>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
 
-  <div class="buttons">
-    <a href="https://wa.me/16142662582" target="_blank" class="btn">Request a Service</a>
-    <a href="#training" class="btn secondary">Learn Trade Skills</a>
-    <a href="#contact" class="btn secondary">Partner With Us</a>
+```
+  <div class="hero-content">
+    <p class="eyebrow">Faith. Skills. Opportunity.</p>
+    <h1>Rebuilding lives. Rebuilding communities.</h1>
+    <p class="hero-text">
+      Chance2Change provides professional home repair and maintenance services while empowering people through trade skills, mentorship, and real opportunities.
+    </p>
+
+    <div class="hero-buttons">
+      <a class="btn primary" href="https://wa.me/16142662582" target="_blank">Request Services</a>
+      <a class="btn secondary" href="mailto:chance2changec2c@gmail.com?subject=Chance2Change%20Inquiry">Partner With Us</a>
+    </div>
   </div>
-</header>
+</section>
+
+<section class="mission-card">
+  <h2>Everybody deserves a Chance2Change.</h2>
+  <p>
+    We believe lasting change starts with faith, practical skills, and community support. Our work connects home services, hands-on training, and mentorship to help people rebuild their lives and strengthen their neighborhoods.
+  </p>
+</section>
 
 <section id="services" class="section">
-  <h2>What We Offer</h2>
-  <p>Chance2Change provides reliable services while creating real opportunities for people to learn, work, and rebuild their future.</p>
+  <p class="eyebrow">What we do</p>
+  <h2>Professional services with a bigger purpose</h2>
 
   <div class="cards">
-    <div class="card">
-      <h3>Handyman Services</h3>
-      <p>Repairs, maintenance, drywall, flooring, doors, fixtures, and property improvements.</p>
-    </div>
+    <article>
+      <h3>Home Repair & Maintenance</h3>
+      <p>Reliable repairs, maintenance, and project support for homeowners, families, landlords, and community partners.</p>
+    </article>
 
-    <div class="card">
-      <h3>Property Maintenance</h3>
-      <p>Support for homeowners, landlords, churches, community spaces, and rental properties.</p>
-    </div>
-
-    <div class="card">
+    <article>
       <h3>Trade Skill Training</h3>
-      <p>Hands-on learning in carpentry, plumbing, electrical, HVAC, and basic home repair.</p>
-    </div>
+      <p>Hands-on learning in carpentry, electrical basics, plumbing, HVAC, safety, and property maintenance fundamentals.</p>
+    </article>
+
+    <article>
+      <h3>Mentorship & Second Chances</h3>
+      <p>Guidance, encouragement, and skill-building pathways for at-risk youth, ex-offenders, and people seeking a new start.</p>
+    </article>
+
+    <article>
+      <h3>Community Revitalization</h3>
+      <p>Transforming neglected properties into training opportunities, future homes, and stronger community spaces.</p>
+    </article>
   </div>
 </section>
 
-<section id="work" class="section dark">
-  <h2>Our Work</h2>
-  <p>Real projects. Real skills. Real impact.</p>
+<section id="work" class="section dark-section">
+  <p class="eyebrow">Completed Projects</p>
+  <h2>Work We’ve Done</h2>
+  <p>
+    A look at the hands-on repair, maintenance, and improvement work behind Chance2Change.
+  </p>
 
-  <div class="carousel">
-    <button class="carousel-btn prev" onclick="moveSlide('workCarousel', -1)">❮</button>
-
-    <div class="carousel-track" id="workCarousel">
-      <img src="1b58937cdfa539bd564c0c76c98b4d6d.jpg" alt="Project work">
-      <img src="50bf7ff550904d951df534fcf44e07df.jpg" alt="Project work">
-      <img src="5490441aa0926316fe2a8c0b14a87db2.jpg" alt="Project work">
-      <img src="dd6e1407db4171be380d35564a8274e9.jpg" alt="Project work">
-      <img src="ea429c456ae39519ff7827e4b1f63494.jpg" alt="Project work">
-      <img src="IMG_7933.jpg" alt="Project work">
-      <img src="IMG_7934.jpg" alt="Project work">
-      <img src="IMG_7935.jpg" alt="Project work">
-      <img src="IMG_7936.jpg" alt="Project work">
-      <img src="IMG_7937.jpg" alt="Project work">
-      <img src="IMG_7938.jpg" alt="Project work">
-    </div>
-
-    <button class="carousel-btn next" onclick="moveSlide('workCarousel', 1)">❯</button>
+  <div class="image-carousel">
+    <img src="1b58937cdfa539bd564c0c76c98b4d6d.jpg" alt="Chance2Change completed project" />
+    <img src="5490441aa0926316fe2a8c0b14a87db2.jpg" alt="Chance2Change completed project" />
+    <img src="dd6e1407db4171be380d35564a8274e9.jpg" alt="Chance2Change completed project" />
+    <img src="ea429c456ae39519ff7827e4b1f63494.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7933.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7934.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7935.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7936.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7937.jpg" alt="Chance2Change completed project" />
+    <img src="IMG_7938.jpg" alt="Chance2Change completed project" />
   </div>
 </section>
 
-<section id="mission" class="section mission">
-  <h2>Our Mission</h2>
-  <p>
-    Chance2Change exists to empower people with faith, skills, and opportunity so they can rebuild their lives,
-    support their families, and strengthen their communities. Through trade training, mentoring, real estate
-    redevelopment, and professional services, we create pathways for second chances and long-term change.
-  </p>
-
-  <h2>Our Vision</h2>
-  <p>
-    Our vision is to build a movement where people once overlooked become the builders of stronger futures.
-    We aim to grow into community academies, training spaces, and partnerships that provide housing,
-    hands-on projects, mentorship, and practical skills that restore neighborhoods and lives.
-  </p>
-</section>
-
-<section id="founder" class="section founder">
-  <h2>Meet Gregg Swan</h2>
-  <p>
-    Gregg Swan brings hands-on experience in maintenance, real estate, carpentry, plumbing,
-    electrical, HVAC, property management, and community redevelopment. Chance2Change is built by someone
-    who has lived the trade journey and believes practical skills can change lives.
-  </p>
-
-  <div class="founder-grid">
-    <div class="founder-card">
-      <img src="IMG_7921.JPG" alt="Gregg Swan working">
-      <h3>Hands-On Experience</h3>
-      <p>Professional repairs, drywall, renovation, and maintenance work.</p>
-    </div>
-
-    <div class="founder-card">
-      <img src="IMG_7919.JPG" alt="Gregg Swan electrical work">
-      <h3>Trade Expertise</h3>
-      <p>Electrical, plumbing, carpentry, HVAC, and property maintenance experience.</p>
-    </div>
+<section id="training" class="split-section">
+  <div>
+    <p class="eyebrow">Repair. Teach. Empower.</p>
+    <h2>Built by someone who actually built things.</h2>
+    <p>
+      Founder Gregg Swan brings real-world trade experience, property redevelopment knowledge, and national trade training credentials to the mission. Chance2Change is designed to help people gain practical skills that can support families, create income, and open doors.
+    </p>
   </div>
 
-  <h2 class="subheading">Certifications & Credentials</h2>
-  <p>Click any certificate image to view it larger as proof of training and experience.</p>
+  <div class="credential-box">
+    <h3>Founder Credentials</h3>
 
-  <div class="carousel cert-carousel">
-    <button class="carousel-btn prev" onclick="moveSlide('certCarousel', -1)">❮</button>
+    <ul>
+      <li>NCCER training in Carpentry, Electrical, Plumbing & HVAC</li>
+      <li>Maintenance Director and Maintenance Technician experience</li>
+      <li>Real estate, property management, and renovation background</li>
+      <li>35+ properties acquired and rehabilitated</li>
+      <li>Experience managing rehab crews, budgets, and timelines</li>
+    </ul>
 
-    <div class="carousel-track" id="certCarousel">
-      <a href="1000008991.jpg" target="_blank">
-        <img src="1000008991.jpg" alt="Certification">
+    <div class="certificate-proof">
+      <a href="50bf7ff550904d951df534fcf44e07df.jpg" target="_blank">
+        <img src="50bf7ff550904d951df534fcf44e07df.jpg" alt="Gregg Swan certification proof" />
       </a>
-
-      <a href="1000008997.PNG" target="_blank">
-        <img src="1000008997.PNG" alt="Certification">
-      </a>
-    </div>
-
-    <button class="carousel-btn next" onclick="moveSlide('certCarousel', 1)">❯</button>
-  </div>
-</section>
-
-<section id="training" class="section dark">
-  <h2>Training & Mentorship</h2>
-  <p>We believe practical skills can create confidence, jobs, businesses, and better futures.</p>
-
-  <div class="cards">
-    <div class="card">
-      <h3>Skills for Life</h3>
-      <p>Teaching real maintenance and trade skills people can use for work, home, and entrepreneurship.</p>
-    </div>
-
-    <div class="card">
-      <h3>Second Chances</h3>
-      <p>Creating opportunities for people who need a fresh start and a real path forward.</p>
-    </div>
-
-    <div class="card">
-      <h3>Community First</h3>
-      <p>Rebuilding more than houses — restoring pride, dignity, families, and neighborhoods.</p>
+      <p>Click certificate to view full credential.</p>
     </div>
   </div>
 </section>
 
-<section id="reviews" class="section reviews">
-  <h2>Trusted in the Community</h2>
-  <p>Read reviews, view our profiles, and connect with Chance2Change.</p>
-
-  <div class="buttons">
-    <a href="https://share.google/lvEktd9B0ImT6O5EV" target="_blank" class="btn">⭐ View Yelp</a>
-    <a href="https://share.google/MMLRXMQINqLM1gCd9" target="_blank" class="btn secondary">🔎 View Yahoo</a>
-  </div>
-</section>
-
-<section id="contact" class="section contact">
-  <h2>Contact Chance2Change</h2>
-  <p>Need services, have questions, or want to collaborate?</p>
-
-  <div class="buttons">
-    <a href="https://wa.me/16142662582" target="_blank" class="btn">💬 WhatsApp Us</a>
-    <a href="mailto:chance2changec2c@gmail.com?subject=Chance2Change Inquiry" class="btn secondary"> Email Us</a>
-    <a href="https://www.instagram.com/chance2.change" target="_blank" class="btn secondary"> Instagram</a>
-    <a href="https://www.facebook.com/Chance2Change" target="_blank" class="btn secondary"> Facebook</a>
-  </div>
-
-  <p class="contact-info">
-    Email: chance2changec2c@gmail.com<br>
-    WhatsApp: 614-266-2582
+<section id="story" class="section dark-section">
+  <p class="eyebrow">Our story</p>
+  <h2>From second chances to new beginnings.</h2>
+  <p>
+    Chance2Change was born from a real journey of struggle, faith, resilience, and opportunity. Gregg Swan grew up watching his family struggle to pay rent, but that experience sparked a dream to one day own property and build something bigger.
   </p>
+  <p>
+    Through skilled trades training, real estate experience, property rehabilitation, and years of hands-on work, that dream became a mission: teach others the same practical skills that can change lives.
+  </p>
+
+  <div class="image-carousel founder-carousel">
+    <img src="IMG_7919.JPG" alt="Gregg Swan working on a project" />
+    <img src="IMG_7921.JPG" alt="Gregg Swan completing hands-on repair work" />
+  </div>
 </section>
 
-<footer>
-  <p><strong>Chance2Change</strong></p>
-  <p>Rebuilding Lives. Rebuilding Communities.</p>
-</footer>
+<section class="section impact-section">
+  <p class="eyebrow">Community Impact</p>
+  <h2>Building skills. Creating opportunities.</h2>
+  <p>
+    Every service helps support a larger mission: teaching practical trade skills, creating opportunities, and helping people build stronger futures for themselves, their families, and their communities.
+  </p>
 
-<script src="script.js"></script>
+  <div class="impact-points">
+    <article>
+      <h3>Professional Services</h3>
+      <p>Reliable work for homes, properties, and community spaces.</p>
+    </article>
+
+    <article>
+      <h3>Hands-On Learning</h3>
+      <p>Real-world training that helps people gain confidence and useful skills.</p>
+    </article>
+
+    <article>
+      <h3>Purpose-Driven Growth</h3>
+      <p>Restoring more than properties — restoring hope, dignity, and opportunity.</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <p class="eyebrow">Let’s build something better</p>
+  <h2>Request services, training, or partnership information</h2>
+  <p>
+    Reach out to request help, ask about training, or explore partnerships with Chance2Change.
+  </p>
+
+  <div class="contact-buttons">
+    <a class="btn primary" href="https://wa.me/16142662582" target="_blank">WhatsApp: 614-266-2582</a>
+    <a class="btn secondary" href="mailto:chance2changec2c@gmail.com?subject=Chance2Change%20Inquiry">Email Us</a>
+    <a class="btn secondary" href="https://www.instagram.com/chance2.change/" target="_blank">Instagram</a>
+    <a class="btn secondary" href="https://www.facebook.com/search/top?q=Chance2Change" target="_blank">Facebook</a>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer>
+    <p><strong>Chance2Change</strong> | Faith. Skills. Opportunity.</p>
+    <p>Rebuilding Lives. Rebuilding Communities.</p>
+  </footer>
 </body>
 </html>
